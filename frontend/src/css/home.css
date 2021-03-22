@@ -1,0 +1,49 @@
+body {
+  background: url("image.png");
+  background-color: orange; /*this your primary color*/
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main-heading {
+  background-color: yellow;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  color: black;
+  width: 500px;
+  z-index: 1;
+  font-family: "Courier New", Courier, monospace;
+}
+.col {
+  margin-top: 20px;
+}
+
+.divprops {
+  border-radius: 15px;
+  background-color: white;
+  padding: 15px;
+}
+
+.left-col {
+  padding: 15px;
+  border-right: 1px solid black;
+}
+
+.right-col {
+  padding: 15px;
+}
+
+.comment {
+  color: gray;
+}
+
+samp {
+  color: green;
+}
