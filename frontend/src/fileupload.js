@@ -107,7 +107,7 @@ function FileUpload() {
       success: "",
       dark: "",
       yellow: true,
-      up_disabled: false,
+      up_disabled: true,
       d_disabled: true,
     });
     fetch(`${API}/tlbo`).then((res) => {
@@ -145,7 +145,7 @@ function FileUpload() {
       success: "",
       dark: "",
       yellow: true,
-      up_disabled: false,
+      up_disabled: true,
       d_disabled: true,
     });
 
