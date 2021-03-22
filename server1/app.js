@@ -48,6 +48,9 @@ app.get("/", (req, res) => {
 app.use(fileUpload());
 
 app.post("/upload", (req, res) => {
+  if (fs.existsSync(path.join("./", "myfile.xlsx")))
+    fs.unlinkSync(path.join("./", "myfile.xlsx"));
+
   if (!req.files) {
     return res.status(500).send({ msg: "file is not found" });
   }
@@ -74,75 +77,89 @@ app.get("/download", (req, res) => {
   var file = "Final.csv";
   var fileLocation = path.join("./", file);
   res.download(fileLocation, file);
-  // fs.unlinkSync(fileLocation);
 });
+
+const psoUnLink = () => {
+  if (fs.existsSync(path.join("./", "result.csv")))
+    fs.unlinkSync(path.join("./", "result.csv"));
+  if (fs.existsSync(path.join("./", "result.txt")))
+    fs.unlinkSync(path.join("./", "result.txt"));
+  if (fs.existsSync(path.join("./", "output.txt")))
+    fs.unlinkSync(path.join("./", "output.txt"));
+};
 
 app.get("/pso", (req, res) => {
   try {
+    if (fs.existsSync(path.join("./", "Final.csv")))
+      fs.unlinkSync(path.join("./", "Final.csv"));
+
     const process = spawn("python3", ["../pyScript/pso.py"]);
     process.stdout.on("data", (data) => {});
     process.stdout.on("end", function () {
       if (fs.existsSync(path.join("./", "Final.csv"))) {
-        try {
-          fs.unlinkSync(path.join("./", "result.csv"));
-          fs.unlinkSync(path.join("./", "result.txt"));
-          fs.unlinkSync(path.join("./", "output.txt"));
-          res.status(200).send();
-        } catch (e) {
-          res.status(400).send();
-        }
+        psoUnLink();
+        res.status(200).send();
       } else {
+        psoUnLink();
         res.status(400).send();
       }
     });
     process.stdin.end();
   } catch (e) {
+    psoUnLink();
     res.status(400).send();
   }
 });
 
+const UnLink = () => {
+  if (fs.existsSync(path.join("./", "result.csv")))
+    fs.unlinkSync(path.join("./", "result.csv"));
+  if (fs.existsSync(path.join("./", "result.txt")))
+    fs.unlinkSync(path.join("./", "result.txt"));
+};
+
 app.get("/tlbo", (req, res) => {
   try {
+    if (fs.existsSync(path.join("./", "Final.csv")))
+      fs.unlinkSync(path.join("./", "Final.csv"));
+
     const process = spawn("python3", ["../pyScript/tlbo.py"]);
     process.stdout.on("data", (data) => {});
     process.stdout.on("end", function () {
       if (fs.existsSync(path.join("./", "Final.csv"))) {
-        try {
-          fs.unlinkSync(path.join("./", "result.csv"));
-          fs.unlinkSync(path.join("./", "result.txt"));
-          res.status(200).send();
-        } catch (e) {
-          res.status(400).send();
-        }
+        UnLink();
+        res.status(200).send();
       } else {
+        UnLink();
         res.status(400).send();
       }
     });
     process.stdin.end();
   } catch (e) {
+    UnLink();
     res.status(400).send();
   }
 });
 
 app.get("/sa", (req, res) => {
   try {
+    if (fs.existsSync(path.join("./", "Final.csv")))
+      fs.unlinkSync(path.join("./", "Final.csv"));
+
     const process = spawn("python3", ["../pyScript/sa.py"]);
     process.stdout.on("data", (data) => {});
     process.stdout.on("end", function () {
       if (fs.existsSync(path.join("./", "Final.csv"))) {
-        try {
-          fs.unlinkSync(path.join("./", "result.csv"));
-          fs.unlinkSync(path.join("./", "result.txt"));
-        } catch (e) {
-          res.status(400).send();
-        }
+        UnLink();
         res.status(200).send();
       } else {
+        UnLink();
         res.status(400).send();
       }
     });
     process.stdin.end();
   } catch (e) {
+    UnLink();
     res.status(400).send();
   }
 });
