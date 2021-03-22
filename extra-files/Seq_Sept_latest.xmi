@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAF0T5auDgOtxeM=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAFzTuURyI4VdAI=" name="Collaboration1" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Collaboration">
+				<ownedMember xmi:id="AAAAAAFzTuURyI4WSOI=" name="Interaction1" visibility="public" isReentrant="true" xmi:type="uml:Interaction">
+					<lifeline xmi:id="AAAAAAFzTuXvBY4lDzQ=" name="Passenger" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFzTuXvBY4k9h4="/>
+					<lifeline xmi:id="AAAAAAFzTuYYgo5F4Bo=" name="Railway%20Authority" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFzTuYYgY5EVsQ="/>
+					<message xmi:id="AAAAAAFzTub00o5rDzM=" name="Select%20Gender" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auEQOvsQI=" sendEvent="AAAAAAF0T5auEQOuG8s="/>
+					<message xmi:id="AAAAAAFzTujWdY8ketE=" name="Male%20or%20Female" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auEgOxBgw=" sendEvent="AAAAAAF0T5auEgOw7tA="/>
+					<message xmi:id="AAAAAAFzTukw5o867Bk=" name="Select%20passenger%20type" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auEgOzZao=" sendEvent="AAAAAAF0T5auEgOyNe4="/>
+					<message xmi:id="AAAAAAFzTumlPY9Rkd0=" name="Child%20or%20Adult%20or%20Senior%20Citizen" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auEgO1MfE=" sendEvent="AAAAAAF0T5auEgO0D+Y="/>
+					<message xmi:id="AAAAAAFzTvB2249qZsk=" name="Select%20Journey%20Class" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auEgO3gfg=" sendEvent="AAAAAAF0T5auEgO2r/s="/>
+					<message xmi:id="AAAAAAFzTvDsS4+Bcq8=" name="1A%20or%202A%20or%203A%20or%20CC%20or%20FS%20or%20SS%20or%20SL" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auEwO5xxg=" sendEvent="AAAAAAF0T5auEgO41yg="/>
+					<message xmi:id="AAAAAAFzTvPXSI/oLx4=" name="Select%20Disabled%20Passenger%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auEwO7kAY=" sendEvent="AAAAAAF0T5auEwO6zFg="/>
+					<message xmi:id="AAAAAAFzTvRdrZAFIq4=" name="Handicapped%20or%20Mentally%20Retarded%20or%20Blind%20or%20Deaf%20Dumb" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auEwO9yUE=" sendEvent="AAAAAAF0T5auEwO8u+o="/>
+					<message xmi:id="AAAAAAFzTvR+y5AaVX0=" name="Select%20Patient%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auEwO/3AE=" sendEvent="AAAAAAF0T5auEwO+i1I="/>
+					<message xmi:id="AAAAAAFzTvSYhZAvwik=" name="Cancer%20or%20heart%20or%20kidney%20or%20thalassemia%20or%20TB%20or%20AIDS%20or%20Haemophilia%20or%20Leprosy" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auEwPB54o=" sendEvent="AAAAAAF0T5auEwPAuU4="/>
+					<message xmi:id="AAAAAAFzTvVixZBSnWE=" name="Select%20Awardees%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auFAPDpR8=" sendEvent="AAAAAAF0T5auEwPC0qE="/>
+					<message xmi:id="AAAAAAFzTvWARZBnLL8=" name="President%20Medal%20or%20Indian%20Police%20or%20Shram%20or%20Teachers%20or%20Bravery" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auFAPFIso=" sendEvent="AAAAAAF0T5auFAPE8A0="/>
+					<message xmi:id="AAAAAAFzTvfj5pDMC0A=" name="Select%20Widow%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auFAPHBbo=" sendEvent="AAAAAAF0T5auFAPGN5Y="/>
+					<message xmi:id="AAAAAAFzTviHxZF0BfM=" name="war%20or%20IPKF%20or%20Parliamentary%20or%20Defence%20or%20Kargil" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auFAPJBkk=" sendEvent="AAAAAAF0T5auFAPIshA="/>
+					<message xmi:id="AAAAAAFzTvgEXJDh87c=" name="Select%20Student%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auFAPLsZA=" sendEvent="AAAAAAF0T5auFAPKlck="/>
+					<message xmi:id="AAAAAAFzTvimjpGJb0Y=" name="General%20or%20SC%20or%20school%20rural%20or%20girls%20rural%20or%20exams%20or%20research%20or%20foreign%20or%20cadets" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auFAPNEB0=" sendEvent="AAAAAAF0T5auFAPMP9E="/>
+					<message xmi:id="AAAAAAFzTvgae5D2tfM=" name="Select%20youth%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auFAPPqB8=" sendEvent="AAAAAAF0T5auFAPOcpc="/>
+					<message xmi:id="AAAAAAFzTvi1E5Gezi0=" name="project%20or%20seva%20or%20interview%20NonGov%20or%20interview%20st%20or%20scouts" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auFQPRRAk=" sendEvent="AAAAAAF0T5auFAPQlfs="/>
+					<message xmi:id="AAAAAAFzTvgtApELogg=" name="Select%20kisan%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auFQPTBAY=" sendEvent="AAAAAAF0T5auFQPSzsM="/>
+					<message xmi:id="AAAAAAFzTvjHCZGzn9E=" name="agricultural%20or%20travel%20or%20training%20or%20conferences" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auFQPVtIY=" sendEvent="AAAAAAF0T5auFQPUR6s="/>
+					<message xmi:id="AAAAAAFzTvg+yZEgSzU=" name="Select%20Artistists%20sportsman%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auFQPXIcE=" sendEvent="AAAAAAF0T5auFQPWFyw="/>
+					<message xmi:id="AAAAAAFzTvjW/pHI/ug=" name="performance%20or%20travel%20or%20state%20tour%20or%20nat%20tour%20or%20mounting%20or%20press" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auFQPZLWg=" sendEvent="AAAAAAF0T5auFQPYj9c="/>
+					<message xmi:id="AAAAAAFzTvhPL5E1sJ0=" name="Select%20Medical%20Professionsals%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auFQPboHE=" sendEvent="AAAAAAF0T5auFQPabyM="/>
+					<message xmi:id="AAAAAAFzTvjm2pHd3MQ=" name="Doctors%20or%20Nurses" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auFQPdq2c=" sendEvent="AAAAAAF0T5auFQPcGb4="/>
+					<message xmi:id="AAAAAAFzTvheX5FKBwc=" name="Select%20Other%20Concessions" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auMwPfdN4=" sendEvent="AAAAAAF0T5auFQPegKs="/>
+					<message xmi:id="AAAAAAFzTvj2UpHyXZw=" name="Delegates%20or%20sewa%20or%20Social%20Service%20or%20tours%20or%20Ambulance%20Brigade" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auMwPhbNQ=" sendEvent="AAAAAAF0T5auMwPg4s4="/>
+					<message xmi:id="AAAAAAFz9Q1u2+sqQG8=" name="Gender%20Male,%20Select%20Widow%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auMwPjgug=" sendEvent="AAAAAAF0T5auMwPi6Cg="/>
+					<message xmi:id="AAAAAAF0RRJCrXN2xBg=" name="Infeasible%20Input" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auMwPlWyo=" sendEvent="AAAAAAF0T5auMwPk5Jw="/>
+					<message xmi:id="AAAAAAFz9Q7l9+tBbe8=" name="Passenger%20Type%20Senior%20Citizen,%20Select%20Student%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auNAPnNX0=" sendEvent="AAAAAAF0T5auMwPmZFE="/>
+					<message xmi:id="AAAAAAF0RRRSn3O6ExM=" name="Infeasible%20Input" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auNAPpqX0=" sendEvent="AAAAAAF0T5auNAPoy+A="/>
+					<message xmi:id="AAAAAAFz9RQITetmN1o=" name="Passenger%20Type%20Senior%20Citizen,%20Select%20Youth%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auNAPrEuA=" sendEvent="AAAAAAF0T5auNAPq9vk="/>
+					<message xmi:id="AAAAAAF0RRO2qXOkZbg=" name="Infeasible%20Input" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auNAPtu84=" sendEvent="AAAAAAF0T5auNAPsa/A="/>
+					<message xmi:id="AAAAAAFz9RWZZet+1IQ=" name="Passenger%20Type%20Senior%20Citizen,%20Select%20Youth%20Concession" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAF0T5auNAPvp/U=" sendEvent="AAAAAAF0T5auNAPuWXI="/>
+					<message xmi:id="AAAAAAF0RRM12XOO8Uk=" name="Infeasible%20Input" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAF0T5auNAPx7m4=" sendEvent="AAAAAAF0T5auNAPwHh8="/>
+					<fragment xmi:id="AAAAAAF0T5auEQOuG8s=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auEQOvsQI=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auEgOw7tA=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auEgOxBgw=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auEgOyNe4=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auEgOzZao=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auEgO0D+Y=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auEgO1MfE=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auEgO2r/s=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auEgO3gfg=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auEgO41yg=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auEwO5xxg=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auEwO6zFg=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auEwO7kAY=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auEwO8u+o=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auEwO9yUE=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auEwO+i1I=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auEwO/3AE=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auEwPAuU4=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auEwPB54o=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auEwPC0qE=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPDpR8=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPE8A0=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPFIso=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPGN5Y=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPHBbo=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPIshA=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPJBkk=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPKlck=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPLsZA=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPMP9E=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPNEB0=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPOcpc=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPPqB8=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFAPQlfs=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPRRAk=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPSzsM=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPTBAY=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPUR6s=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPVtIY=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPWFyw=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPXIcE=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPYj9c=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPZLWg=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPabyM=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPboHE=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPcGb4=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPdq2c=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auFQPegKs=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auMwPfdN4=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auMwPg4s4=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auMwPhbNQ=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auMwPi6Cg=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auMwPjgug=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auMwPk5Jw=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auMwPlWyo=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auMwPmZFE=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPnNX0=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPoy+A=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPpqX0=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPq9vk=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPrEuA=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPsa/A=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPtu84=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPuWXI=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPvp/U=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPwHh8=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuYYgo5F4Bo="/>
+					<fragment xmi:id="AAAAAAF0T5auNAPx7m4=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFzTuXvBY4lDzQ="/>
+					<fragment xmi:id="AAAAAAFzTvI6/Y+8+Rs=" name="Concession%20Categories" visibility="public" isReentrant="true" xmi:type="uml:CombinedFragment" interactionOperator="opt">
+						<operand xmi:id="AAAAAAFzTvI6/o+9vbs=" name="Operand1" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+						<operand xmi:id="AAAAAAFzTvN8S4/Wt50=" name="InteractionOperand1" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+						<operand xmi:id="AAAAAAFzTvOOE4/fI1I=" name="InteractionOperand2" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+						<operand xmi:id="AAAAAAFzTvUo85BIUZ4=" name="InteractionOperand3" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+						<operand xmi:id="AAAAAAFzTvYPLJB8dRY=" name="InteractionOperand4" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+						<operand xmi:id="AAAAAAFzTvcAD5COusM=" name="InteractionOperand5" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+						<operand xmi:id="AAAAAAFzTvcb75CYuJ4=" name="InteractionOperand6" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+						<operand xmi:id="AAAAAAFzTvcoQpChC9c=" name="InteractionOperand7" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+						<operand xmi:id="AAAAAAFzTvcx05Cqwb4=" name="InteractionOperand8" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+						<operand xmi:id="AAAAAAFzTvdBz5Cz4vs=" name="InteractionOperand9" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+					</fragment>
+					<fragment xmi:id="AAAAAAFz9QLq6Or5Qic=" name="Invalid%20Concession" visibility="public" isReentrant="true" xmi:type="uml:CombinedFragment" interactionOperator="neg">
+						<operand xmi:id="AAAAAAFz9QLq6er6S6E=" name="Operand1" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand"/>
+					</fragment>
+				</ownedMember>
+				<ownedAttribute xmi:id="AAAAAAFzTuXvBY4k9h4=" name="Role1" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAFzTuYYgY5EVsQ=" name="Role2" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			</packagedElement>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>
